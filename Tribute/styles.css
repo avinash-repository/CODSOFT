@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: "Playwrite BE VLG", cursive;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #fbf8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #766868;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.quote {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.quote h2 {
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+}
+
+main section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+main h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+main ul {
+    list-style-type: none;
+   
+}
+
+main  li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .quote h2 {
+        font-size: 1.5em;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+    }
+
+    main ul li {
+        font-size: 1em;
+    }
+}
